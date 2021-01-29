@@ -1,6 +1,6 @@
 # ItemPosterPublishPlugin
 
-<a href="https://github.com/alexito4/ReadingTimePublishPlugin/actions?query=workflow%3ATest+branch%3Amaster
+<a href="https://github.com/alexito4/ItemPosterPublishPlugin/actions?query=workflow%3ATest+branch%3Amaster
 ">
     <img src="https://github.com/alexito4/ReadingTimePublishPlugin/workflows/Test/badge.svg?branch=master" alt="Status" />
 </a>
@@ -19,6 +19,13 @@
 Create social images for your posts to have nice Twitter Cards. This is a plugin for [Publish](https://github.com/JohnSundell/Publish).
 
 ## Installation
+
+Add the package to your SPM dependencies.
+
+```swift
+.package(name: "ItemPosterPublishPlugin", url: "https://github.com/alexito4/ItemPosterPublishPlugin", from: "0.0.1"),
+
+```
 
 ## Usage
 
