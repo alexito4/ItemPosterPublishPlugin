@@ -18,6 +18,11 @@
 
 Create social images for your posts to have nice Twitter Cards. This is a plugin for [Publish](https://github.com/JohnSundell/Publish).
 
+> ⚠️ Note that the poster generation must run on `MainActor` but `Publish 0.9.0` doesn't support concurrency properly
+> and it cause a deadlock.
+> You will need a workaround (like this [commit](https://github.com/alexito4/Publish/commit/d76f9a0492af0038e06c01b6bf584df9b4514736)) and make your command
+> line tool be async.
+
 ## Installation
 
 Add the package to your SPM dependencies.
